@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		E39621302C376C4000AD72EF /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E396212F2C376C4000AD72EF /* Apple_FrameworksApp.swift */; };
-		E39621322C376C4000AD72EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39621312C376C4000AD72EF /* ContentView.swift */; };
 		E39621342C376C4000AD72EF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39621332C376C4000AD72EF /* Item.swift */; };
 		E39621362C376C4500AD72EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39621352C376C4500AD72EF /* Assets.xcassets */; };
 		E39621392C376C4500AD72EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39621382C376C4500AD72EF /* Preview Assets.xcassets */; };
+		E39621402C376CEB00AD72EF /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = E396213F2C376CEB00AD72EF /* Framework.swift */; };
+		E39621422C376FE200AD72EF /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39621412C376FE200AD72EF /* FrameworkGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E396212C2C376C4000AD72EF /* Apple-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E396212F2C376C4000AD72EF /* Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksApp.swift; sourceTree = "<group>"; };
-		E39621312C376C4000AD72EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E39621332C376C4000AD72EF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E39621352C376C4500AD72EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E39621382C376C4500AD72EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E396213F2C376CEB00AD72EF /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		E39621412C376FE200AD72EF /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				E396212F2C376C4000AD72EF /* Apple_FrameworksApp.swift */,
-				E39621312C376C4000AD72EF /* ContentView.swift */,
+				E39621412C376FE200AD72EF /* FrameworkGridView.swift */,
+				E396213F2C376CEB00AD72EF /* Framework.swift */,
 				E39621332C376C4000AD72EF /* Item.swift */,
 				E39621352C376C4500AD72EF /* Assets.xcassets */,
 				E39621372C376C4500AD72EF /* Preview Content */,
@@ -140,7 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E39621322C376C4000AD72EF /* ContentView.swift in Sources */,
+				E39621402C376CEB00AD72EF /* Framework.swift in Sources */,
+				E39621422C376FE200AD72EF /* FrameworkGridView.swift in Sources */,
 				E39621342C376C4000AD72EF /* Item.swift in Sources */,
 				E39621302C376C4000AD72EF /* Apple_FrameworksApp.swift in Sources */,
 			);
